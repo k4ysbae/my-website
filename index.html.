@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dagohoy + Reyes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f8f8f8;
+            margin: 0;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+            width: 80%;
+            max-width: 900px;
+        }
+
+        .box {
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: bold;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo {
+            background-color: white;
+            color: #e6007e;
+            border: 2px solid #e6007e;
+        }
+
+        .pink {
+            background-color: #ff80b3;
+        }
+
+        .blue {
+            background-color: #66ccff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box logo">DAGOHOY + REYES</div>
+        <div class="box pink">Team Handbook</div>
+        <div class="box pink">Careers</div>
+        <div class="box blue">Company Updates</div>
+        <div class="box pink">Annual Report</div>
+        <div class="box pink">Project Reports</div>
+        <div class="box blue">Company Culture</div>
+        <div class="box pink">New Services</div>
+    </div>
+</body>
+</html>
